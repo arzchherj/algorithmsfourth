@@ -2,11 +2,13 @@
 //
 
 #include <iostream>
+#include"insert_sort.h"
 #include "union_find.h"
 int main()
 {
-	union_find *uf = new union_find();
-	uf->test_main();
+	insert_sort * sort = new insert_sort();
+	sort->test_main();
+	delete sort;
 
 }
 
